@@ -1,0 +1,47 @@
+.card{
+    background-color: white;
+    width: 305px;
+    box-shadow: 0 3px 15px rgba(0,0,0,0.2);
+    border-radius: 5px;
+    height: 370px;
+    cursor: pointer;
+         
+    }
+    .card .card_container{
+        height: 250px;
+        width: 100%;
+    }
+    img{
+        width: 100%;
+        padding-top: 5px;
+        height:100%;
+        object-fit: contain;
+    }
+    
+    .card_details{
+        padding-left: 15px;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+    p{
+        margin-bottom:23px;
+    }
+    .card_btn{
+        padding-top:30px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .card_btn>button{
+        width:100px;
+        outline: none;
+        border-radius: 5px;
+        color: white;
+        background-color: orangered;
+        box-shadow: 0 3px 15px rgba(0, 0, 0, 0.2);
+        height:40px;
+        cursor: pointer;
+        border: none;
+    }
+    
